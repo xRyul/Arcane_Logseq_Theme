@@ -1,0 +1,18 @@
+{
+  "name": "Arcane",
+  "author": "xRyul",
+  "version": "0.0.1",
+  "description": "Dive into the darkness and spark the light 🌙 ",
+  "logseq": {
+    "themes": [
+      {
+        "name": "Arcane",
+        "url": "./Arcane.css",
+        "description": "Into the dark 🌙",
+        "mode": "dark"
+      }
+    ],
+    "icon": "./icon.png",
+    "id": "Arcane_Logseq_Theme"
+  }
+}

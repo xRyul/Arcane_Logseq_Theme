@@ -1,0 +1,386 @@
+/* Arcane */
+.dark-theme,
+html[data-theme=dark] {
+    --ls-primary-background-color: #23212d !important;
+    --ls-primary-text-color: hsl(191, 54%, 64%);
+    --ls-secondary-background-color: hsl(230, 9%, 13%);
+    --ls-tertiary-background-color: hsl(230, 9%, 25%);
+    --ls-quaternary-background-color: hsl(226, 17%, 25%); /*e.g. search, horizontal line, and preview page*/    
+}
+
+body {
+    filter: contrast(99%);
+}
+
+.opacity-50 {
+  opacity: 1;
+}
+
+.opacity-80 {
+  opacity: 1;
+}
+
+
+/* Main Body Background */
+#main-content-container {
+    background-color: hsl(250, 15%, 15%) !important;
+}
+
+/* Left Sidebar */
+/* #left-sidebar {
+    background-color: hsl(230, 9%, 25%) !important; It slows down opening and closing of the sidebar
+} */
+
+.left-sidebar-inner a.item:hover {
+  background-color:hsl(230, 9%, 25%) !important;
+  opacity:1 !important;
+}
+
+
+/* Left Sidebar - Titles */
+.items-center {
+    color: #fff !important;
+}
+
+.left-sidebar-inner .nav-content-item .header:hover {
+    background-color: hsl(230, 9%, 15%) !important;
+    /* cursor: default !important; */
+}
+
+/* Left Sidebar - Page Items*/
+.left-sidebar-inner .nav-content-item .bd ul a {
+    color: #656375 !important;
+}
+
+/* Left Sidebar - Page Items on HOVER*/
+.left-sidebar-inner .nav-content-item .bd ul a:hover {
+    background-color: #373945 !important;
+    color:#f7f7f1 !important;
+}
+
+
+/* Right Sidebar */
+#right-sidebar {
+    background-color: #1f2025 !important;
+}
+
+/* Header Titlebar */
+/* #head {
+    background-color: hsl(250, 15%, 15%) !important;
+} */
+
+a.button {
+  color: hsl(296, 55%, 74%);
+}
+
+/* UI Font */
+a {
+    font-family: "SF Pro Display";
+}
+
+/* Headings */
+h1 {
+    color: hsl(55, 92%, 76%) !important;
+    font-size: 1.788rem !important;
+    text-shadow: 0px 1px 15px rgba(176,80,48,0.24) !important;
+    font-family: "SF Pro Text", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Microsoft YaHei Light", sans-serif !important;
+
+}
+
+h2 {
+    /* color: #93b876 !important; */
+    color: hsl(125, 83%, 70%) !important; 
+    font-size: 1.563rem !important;
+    font-family: "SF Pro Text", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Microsoft YaHei Light", sans-serif !important;
+}
+
+h3 {
+    color: hsl(181, 97%, 76%);
+    font-size: 1.438rem !important;
+    font-family: "SF Pro Text", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Microsoft YaHei Light", sans-serif !important;
+}
+
+h4 {
+    color: hsl(255, 88%, 78%);
+    font-size: 1.313rem !important;
+    font-family: "SF Pro Text", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Microsoft YaHei Light", sans-serif !important;
+
+}
+
+h5 {
+    color: hsl(316, 100%, 74%);
+    font-size: 1.188rem !important;
+    font-family: "SF Pro Text", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Microsoft YaHei Light", sans-serif !important;
+
+}
+
+h6 {
+    color: hsl(21, 100%, 74%);
+    font-size: 1.088rem !important;
+    font-family: "SF Pro Text", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Microsoft YaHei Light", sans-serif !important;
+
+}
+
+/* Body */
+.block-content .inline {
+    font-family: "SF Pro Text", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Microsoft YaHei Light", sans-serif !important;
+}
+
+/* Color for BOLD */
+b, strong {
+    color: #ffb86c !important;
+}
+
+/* Italics */
+.block-content i {
+  color: #ffff80 !important;
+}
+
+
+.dark-theme,
+html[data-theme=dark] {
+    --ls-selection-background-color: #363948 !important;
+}
+
+
+/* Inline Code */
+code {
+    font-family: "Monaco", Menlo, Consolas, "PT Mono", "Liberation Mono", Courier, monospace !important;
+    line-height: normal !important;
+    background: #87837826 !important;
+    color: #ff5555 !important;
+    border-radius: 3px !important;
+    font-size: 85% !important;
+    padding: 0.15em 0.4em !important;
+    vertical-align: baseline !important;
+}
+
+:not(pre)>code {
+    padding: 1.2px 5px !important;
+}
+
+/* Reference */
+/* Reference - HEADINGS */
+h1 a.page-ref,
+h2 a.page-ref,
+h3 a.page-ref {
+    font-family: "SF Pro Display","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+    font-size: 19px;
+    line-height: 1.21053em;
+    word-spacing: 0.012em;
+    font-weight: 700;
+    color: #1d1d1f;
+    /* text-decoration: underline; */
+}
+
+/* Reference - Internal LINK */
+a.page-ref {
+    font-family: "SF Pro Display","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+    /* font-size: 14px; */
+    line-height: 27px;
+    word-spacing: 0.228px !important;
+    font-weight: 400;
+    color: #ff80b7 !important; 
+    /* text-decoration: underline !important; */
+}
+
+a.page-ref {
+    -webkit-text-decoration-skip: objects;
+    transition: color .24s cubic-bezier(.215,.61,.355,1);
+    text-decoration: none;
+}
+
+a.page-ref:hover {
+  color: hsl(326, 55%, 60%) !important;
+}
+
+/* Reference - External Link */
+.external-link,
+a.external-link {
+    color: #50fa7b !important;
+}
+
+h1 a.external-link,
+h2 a.external-link,
+h3 a.external-link {
+  color:#ff5555 !important;
+}
+
+/* Graph name etc  */
+.cp__sidebar-left-layout a .graphs {
+    font-family: "SF Pro Display","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+    font-weight: 700;
+}
+
+#left-sidebar > div > div > nav.px-2.space-y-1 > div.relative.ui__dropdown-trigger > div > div > a:nth-child(2) {
+    font-family: "SF Pro Display","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+    /* background-color: hsl(130, 75%, 88%); */
+    font-weight: 700;
+}
+
+/* Linked References at the bottom  */
+h2.font-bold {
+  color: #656375 !important;
+  font-size: 1em !important;
+  opacity: 1 !important;
+}
+
+
+
+/* ////////////////////////////  Tags ///////////////////////////////////// */
+a.tag,
+a.tag:hover {
+    font-family: "SF Pro Display","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+    color: hsl(151deg 72% 65%);
+    opacity: 0.9;
+}
+
+
+/* ////////////////////////// CUSTOM - Blockquote /////////////////////*/
+.block-body > blockquote > div {
+    font-family: "SF Pro Display","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+    font-weight: 700;
+    line-height: 2rem;
+    padding: 1.25rem 0 0.625rem 0.175rem;
+    font-size: 1.25rem;
+    font-style: normal;
+    color: #000;
+    text-align: center;
+}
+
+/* div.block-body > blockquote {
+    margin: 1.375rem 0 0 1.375rem;
+    max-width: 29.375rem;
+    float:right !important;
+
+} */
+
+blockquote {
+    overflow: hidden !important;
+    /* background:inherit; */
+}
+
+/* Blockcode top margin */
+.extensions__code .code-editor {
+    margin-top: 0px;
+}
+
+
+
+/* /////////////////////// Code Blocks /////////////////////// */
+.CodeMirror pre.CodeMirror-line, .CodeMirror-gutter, .CodeMirror-gutters, .CodeMirror-linenumber, .CodeMirror-scroll, .CodeMirror-sizer {
+  background: #282a36 !important;
+  color: #f8f8f2 !important;
+  font-family:'SF Mono', Monaco, 'Andale Mono', 'Ubuntu Mono', monospace !important;
+  font-weight: 600 !important;
+  white-space: pre !important;
+  word-spacing: normal !important;
+  word-break: normal !important;
+  line-height: 1.5 !important;
+  /* The default is 4, but you could change it if you really, really want to */
+  tab-size: 2;
+  -webkit-hyphens: none;
+  hyphens: none;
+  text-shadow: none !important;
+}
+
+.CodeMirror pre.CodeMirror-line::selection {
+background: rgba(146, 146, 175, 0.164) !important; /* changes background color */
+color: unset; /* changes color of the highlighted text */
+}
+
+/* Function, return, let, var */
+.cm-s-solarized .cm-keyword {
+  color: #ff80bf;
+  font-weight: normal;
+}
+
+/* In css: var */
+.cm-s-solarized .cm-callee {
+  color:#ff80bf;
+}
+
+/* E.g. color tag, sans-serif */
+.cm-s-solarized .cm-atom {
+  color: #9580ff;
+}
+
+/* Function or var Name: e.g. Slayer in 'function Slayer' */
+.cm-s-solarized .cm-def {
+  color: #8aff80;
+}
+
+/* Number or e.g. 1px, 1em*/
+.cm-s-solarized .cm-number {
+  color: #9580ff;
+}
+
+/* In javasript: redner will be selected within ReactDOM.render */
+/* In CSS selects whole elements: e.g. background-color, font-family etc */
+.cm-s-solarized .cm-property{
+  color: #80ffea;
+}
+
+/* Var in css */
+.cm-s-solarized .cm-variable{
+  color: #80ffea;
+}
+
+/* Var definition in css */
+.cm-s-solarized .cm-variable-2 {
+  color: #f8f8f2;
+}
+
+/* Operators in javascript: = @ ! */
+.cm-s-solarized .cm-operator {
+  color:#ff80bf;
+}
+
+/* IN css: e.g. .theme-dark or .theme-light */
+.cm-s-solarized .cm-qualifier {
+  color:#8aff80;
+  font-style: italic;
+}
+
+/* In HTML: changes whole e.g. <html> <div> <div/> */
+/* In css selects div e.g. in div.elements, or pre in 'not(pre)' */
+/* ".cm-tag.cm-bracket" will change only </> bracket color */
+/* In Editor it will change also "<b>, <u>" elements within text */
+.cm-s-solarized .cm-tag {
+  color:#ff80bf;
+}
+
+/* In html "<!DOCTYPE html>" wil be highlighted */
+/* .cm-s-solarized .cm-meta {
+  color:red !important;
+} */
+
+/* In html: attribute within e.g. <div=attribute></div> */
+/* In BASH: will change options e.g. -l in `ls -l` */
+.cm-s-solarized .cm-attribute {
+  color:#8aff80;
+}
+
+/* If '!important' is set, it will change the color of all comments */
+.cm-s-solarized .cm-comment {
+  color: #6272a4 !important;
+}
+
+/* String e.g. a whole sentence within " Sample Sentece" */
+.cm-s-solarized .cm-string {
+  color:#ffff80;
+}
+
+/* Some <div> elements were note selecting with simple .cm-string , but this .cm-string-2 fixes it */
+.cm-s-solarized .cm-string-2 {
+  color:#ff80bf;
+}
+
+/* In bash it selects default commands e.g. cd, ls, grep, wc, find etc. */
+.cm-s-solarized .cm-builtin {
+  color:#80ffea;
+}
+
+
+/* /////////////////////////////////////////////// */
+
