@@ -19,4 +19,4 @@
 
 a) **Enable Developer Mode**. Download Theme to your desktop -> Open Logseq App -> Settings -> Advanced -> Toggle "Developer mode" to turn it on -> Settings -> Plugins -> Load unpacked plugin -> manually open folder where the Theme is located.
 
-b) Copy all the CSS code from inside of `Arcane.css` file into /<yourDBname>/.logseq/custom.css -> Reload Logseq
+b) Copy all the CSS code from inside of `Arcane.css` file into /yourDBname/.logseq/custom.css -> Reload Logseq
